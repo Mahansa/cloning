@@ -39,6 +39,10 @@ body {
   align-items: center;
   cursor: pointer;
 }
+.container .nav-icons span {
+  color: blue;
+  font-size: 8;
+}
 .container .nav-icons i {
   color: #0071c5;
   margin: 0 10px;
