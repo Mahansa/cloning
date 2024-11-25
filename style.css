@@ -39,14 +39,15 @@ body {
   align-items: center;
   cursor: pointer;
 }
-.container .nav-icons span {
-  color: blue;
-  font-size: 8;
-}
 .container .nav-icons i {
   color: #0071c5;
   margin: 0 10px;
   font-size: 18px;
+}
+
+.container .nav-icons span {
+  color: blue;
+  font-size: 8;
 }
 .container .nav-icons .search {
   display: flex;
@@ -76,6 +77,8 @@ body {
   display: flex;
   justify-content: center;
   color: gray;
+  flex-direction: row;
+ 
 
 }
 
@@ -412,4 +415,48 @@ p {
   font-size: 12px;
   margin: 20px 0;
   line-height: 1.5;
+}
+.fixed-bottom {
+  position: fixed; 
+  left: 50%; 
+  bottom: 20px; 
+  transform: translateX(-50%); 
+  background-color: #333; 
+  color: navy;
+  padding: 10px 20px;
+  font-size: 16px; 
+  border-radius: 5px; 
+  z-index: 1000; 
+}
+
+
+.fixed-menu {
+  position: fixed;
+  bottom: 20px; 
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  background-color: #e4e8ec; 
+  border-radius: 25px; 
+  padding: 10px 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.fixed-menu a {
+  text-decoration: none;
+  color: #0066cc; 
+  font-weight: bold;
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+.fixed-menu span {
+  color: #0066cc; 
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+.fixed-menu a:hover {
+  text-decoration: underline; 
 }
