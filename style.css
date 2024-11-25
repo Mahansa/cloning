@@ -45,9 +45,9 @@ body {
   font-size: 18px;
 }
 
-.container .nav-icons span {
+.container .nav-icons h1 {
   color: blue;
-  font-size: 8;
+  font-size: 12px;
 }
 .container .nav-icons .search {
   display: flex;
@@ -74,12 +74,9 @@ body {
 }
 
 .paragraf{
-  display: flex;
+ display: flex;
   justify-content: center;
-  color: gray;
-  flex-direction: row;
- 
-
+  color: rgb(0, 0, 0);
 }
 
 .Slider {
@@ -295,7 +292,6 @@ p {
 
 .container9 {
   display: flex;
-  margin: px auto;
   width: 1205px;
 }
 
